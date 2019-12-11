@@ -6,6 +6,11 @@
 #### 交流群
 703726776
 
+#### 其他插件整合示例
+有些插件可能你并不一定能用上，这里对其他很多的一些插件整合以示例的形式出现，自己选择需要的插件下载。
+
+[点击查看其他插件整合](https://gitee.com/yinqi/Light-Year-Example)
+
 #### 介绍
 ![light year admin](https://images.gitee.com/uploads/images/2019/0314/224956_3eb2a29a_82992.png "未命名-1.png")
 
