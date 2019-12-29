@@ -3111,7 +3111,12 @@ dd, dt {
     display: flex;
     -webkit-align-items: stretch;
     align-items: stretch;
-    margin-bottom: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: -10px;
+}
+.lyear-uploads-pic li {
+    margin-bottom: 10px;
 }
 .lyear-uploads-pic figure  {
     position: relative;
