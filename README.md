@@ -44,7 +44,7 @@
 	if (the_logo_bg) $('body').attr('data-logobg', the_logo_bg);
 	if (the_header_bg) $('body').attr('data-headerbg', the_header_bg);
 	if (the_sidebar_bg) $('body').attr('data-sidebarbg', the_sidebar_bg);
-	if (the_site_theme) $('body').attr('data-theme', the_site_theme);
+	if (the_site_theme) $('body').attr('data-theme', the_site_theme); // iframe版本可不需要这行
 	
 	// 设置主题配色
 	setTheme = function(input_name, data_name) {
@@ -53,10 +53,10 @@
 	        $.cookie('the_'+input_name, $(this).val());
 	    });
 	}
-	setTheme('site_theme', 'data-theme');
+	setTheme('site_theme', 'data-theme'); // iframe版本可不需要这行
 	setTheme('logo_bg', 'data-logobg');
 	setTheme('header_bg', 'data-headerbg');
-	setTheme('sidebar_bg', 'data-sidebarbg'); // iframe版本可不需要这行
+	setTheme('sidebar_bg', 'data-sidebarbg');
 ```
 > 由jquery读取设置，可能会受到加载速度的影响
 
