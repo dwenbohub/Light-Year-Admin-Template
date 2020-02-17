@@ -34,12 +34,13 @@
 
 #### jquery-cookie保存设置示例
 ```
+    // 使用时，请自行引入jquery.cookie.js
 	// 读取cookie中的主题设置
 	var the_logo_bg    = $.cookie('the_logo_bg'),
 	    the_header_bg  = $.cookie('the_header_bg'),
-	    the_sidebar_bg = $.cookie('the_sidebar_bg'),
-	    the_site_theme = $.cookie('the_site_theme');
-	console.log(the_logo_bg);
+	    the_sidebar_bg = $.cookie('the_sidebar_bg'), // iframe版本如果删除了下面一行，请把这一行的逗号改成分号
+	    the_site_theme = $.cookie('the_site_theme'); // iframe版本可不需要这行
+	
 	if (the_logo_bg) $('body').attr('data-logobg', the_logo_bg);
 	if (the_header_bg) $('body').attr('data-headerbg', the_header_bg);
 	if (the_sidebar_bg) $('body').attr('data-sidebarbg', the_sidebar_bg);
@@ -55,7 +56,7 @@
 	setTheme('site_theme', 'data-theme');
 	setTheme('logo_bg', 'data-logobg');
 	setTheme('header_bg', 'data-headerbg');
-	setTheme('sidebar_bg', 'data-sidebarbg');
+	setTheme('sidebar_bg', 'data-sidebarbg'); // iframe版本可不需要这行
 ```
 > 由jquery读取设置，可能会受到加载速度的影响
 
