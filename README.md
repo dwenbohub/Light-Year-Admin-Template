@@ -45,6 +45,25 @@
 	if (the_header_bg) $('body').attr('data-headerbg', the_header_bg);
 	if (the_sidebar_bg) $('body').attr('data-sidebarbg', the_sidebar_bg);
 	if (the_site_theme) $('body').attr('data-theme', the_site_theme); // iframe版本可不需要这行
+        
+        // 处理主题配色下拉选中
+        $(".dropdown-skin :radio").each(function(){
+            var $this = $(this),
+                radioName = $this.attr('name');
+            switch (radioName) {
+                case 'site_theme':
+                    $this.val() == the_site_theme && $this.prop("checked", true);
+                    break;  // iframe版中不需要这个case
+                case 'logo_bg':
+                    $this.val() == the_logo_bg && $this.prop("checked", true);
+                    break;
+                case 'header_bg':
+                    $this.val() == the_header_bg && $this.prop("checked", true);
+                    break;
+                case 'sidebar_bg':
+                    $this.val() == the_sidebar_bg && $this.prop("checked", true);
+            }
+        });
 	
 	// 设置主题配色
 	setTheme = function(input_name, data_name) {
