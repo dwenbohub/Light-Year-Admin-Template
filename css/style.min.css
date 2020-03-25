@@ -1919,13 +1919,13 @@ fieldset[disabled] .btn-dark:hover {
 .btn-group-xs>.btn,
 .btn-xs {
 	font-size: 12px;
-	padding: 2px 8px;
+	padding: 2px 6px;
 	line-height: 18px
 }
 .btn-group-sm>.btn,
 .btn-sm {
 	font-size: 12px;
-	padding: 4px 12px;
+	padding: 4px 8px;
 	line-height: 20px
 }
 .btn-group-lg>.btn,
@@ -1933,6 +1933,27 @@ fieldset[disabled] .btn-dark:hover {
 	font-size: 16px;
 	padding: 7px 20px;
 	line-height: 32px
+}
+.btn-sm.btn-label {
+    padding-left: 42px;
+}
+.btn-sm.btn-label label {
+    line-height: 20px;
+    width: 30px;
+}
+.btn-lg.btn-label {
+    padding-left: 58px;
+}
+.btn-lg.btn-label label {
+    line-height: 32px;
+    width: 36px;
+}
+.btn-xs.btn-label {
+    padding-left: 36px;
+}
+.btn-xs.btn-label label {
+    line-height: 14px;
+    width: 28px;
 }
 .btn-group-justified {
     display: -webkit-box;
