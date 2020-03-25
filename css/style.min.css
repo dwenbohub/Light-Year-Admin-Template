@@ -3423,6 +3423,7 @@ body[data-theme='dark'] a,
 [data-theme='dark'] .sidebar-footer,
 [data-theme='dark'] .modal-header,
 [data-theme='dark'] .modal-footer,
+[data-theme='dark'] .card-footer,
 [data-theme='dark'] .table>tbody>tr>td,
 [data-theme='dark'] .table>tbody>tr>th,
 [data-theme='dark'] .table>tfoot>tr>td,
@@ -3860,7 +3861,8 @@ body[data-theme='translucent'] {
 [data-theme='translucent'] .modal-header,
 [data-theme='translucent'] .modal-footer,
 [data-theme='translucent'] .divider::before,
-[data-theme='translucent'] .divider::after {
+[data-theme='translucent'] .divider::after,
+[data-theme='translucent'] .card-footer {
     border-color: rgba(255, 255, 255, .075);
 }
 [data-theme='translucent'] .lyear-aside-toggler .lyear-toggler-bar {
@@ -4192,6 +4194,10 @@ body[data-theme='translucent'] {
 }
 [data-theme='translucent'] .text-muted {
     color: rgba(255, 255, 255, .5)!important;
+}
+[data-theme='dark'] .card-footer,
+[data-theme='translucent'] .card-footer {
+    background-color: transparent;
 }
 
 @media (max-width: 1024px) {
