@@ -18,6 +18,8 @@
 
 [猛戳这里去iframe版本](https://gitee.com/yinqi/Light-Year-Admin-Using-Iframe)
 
+[猛戳这里去Light Year Admin V4项目(基于bootstrap 4.4.1版本)](https://gitee.com/yinqi/Light-Year-Admin-Using-Iframe-v4)
+
 作为后端开发人员，自己在做一些简单系统时，经常为了后台的模板烦恼，国内的少，也不太喜欢tab形式的；国外的又太复杂；vue什么框架的又不会用，因而想自己整理出来一个简单点的通用后台模板，结合自己的使用和国外模板的配色、细节处理，这就有了光年后台模板。
 
 简洁而清新的后台模板，功能虽少，倒也满足简单的后台功能，也能够快速上手，希望大家支持。
