@@ -11,6 +11,8 @@
 
 [点击查看其他插件整合](https://gitee.com/yinqi/Light-Year-Example)
 
+[各种整合插件演示地址](http://example.itshubao.com/)
+
 #### 介绍
 ![light year admin](https://images.gitee.com/uploads/images/2019/0314/224956_3eb2a29a_82992.png "未命名-1.png")
 
