@@ -68,6 +68,9 @@
                 <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
                 <li> <a href="lyear_pages_guide.html">表单向导</a> </li>
                 <li> <a href="lyear_pages_login.html">登录页面</a> </li>
+                <li> <a href="lyear_pages_login_2.html">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html">登录页面4</a> </li>
                 <li> <a href="lyear_pages_error.html">错误页面</a> </li>
               </ul>
             </li>
@@ -334,6 +337,37 @@
                     <small class="form-text text-muted">注意如何连接和连接值？ 使用decorate_both选项</small>
                   </div>
                 </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-lg-3">皮肤big</label>
+                  <div class="col-lg-9">
+                    <input id="range_11">
+                    <small class="form-text text-muted">目前默认皮肤是flat</small>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-lg-3">皮肤modern</label>
+                  <div class="col-lg-9">
+                    <input id="range_12">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-lg-3">皮肤sharp</label>
+                  <div class="col-lg-9">
+                    <input id="range_13">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-lg-3">皮肤round</label>
+                  <div class="col-lg-9">
+                    <input id="range_14">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label class="col-form-label col-lg-3">皮肤square</label>
+                  <div class="col-lg-9">
+                    <input id="range_15">
+                  </div>
+                </div>
        
               </div>
             </div>
@@ -435,6 +469,21 @@ $(function() {
         prefix: "重量: ",
         postfix: " 百万镑",
         decorate_both: true
+    });
+    $("#range_11").ionRangeSlider({
+        skin: "big"
+    });
+    $("#range_12").ionRangeSlider({
+        skin: "modern"
+    });
+    $("#range_13").ionRangeSlider({
+        skin: "sharp"
+    });
+    $("#range_14").ionRangeSlider({
+        skin: "round"
+    });
+    $("#range_15").ionRangeSlider({
+        skin: "square"
     });
 });
 </script>

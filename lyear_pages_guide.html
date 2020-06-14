@@ -66,6 +66,9 @@
                 <li> <a href="lyear_pages_add_doc.html">新增文档</a> </li>
                 <li class="active"> <a href="lyear_pages_guide.html">表单向导</a> </li>
                 <li> <a href="lyear_pages_login.html">登录页面</a> </li>
+                <li> <a href="lyear_pages_login_2.html">登录页面2</a> </li>
+                <li> <a href="lyear_pages_login_3.html">登录页面3</a> </li>
+                <li> <a href="lyear_pages_login_4.html">登录页面4</a> </li>
                 <li> <a href="lyear_pages_error.html">错误页面</a> </li>
               </ul>
             </li>
@@ -267,7 +270,7 @@
               <div class="card-header"><h4>表单向导</h4></div>
               <div class="card-body">
                 
-                <form action="#" method="post" class="guide-box" data-navigateable="true">
+                <form action="lyear_pages_guide.html" method="post" class="guide-box" data-navigateable="true">
                   <ul class="nav-step step-dots">
                     <li class="nav-step-item active">
                       <span>步骤一</span>
@@ -363,6 +366,7 @@ $(document).ready(function() {
         },
         'onFinish': function(e, t, i) {
             // 点击完成后处理提交
+            return false;
         }
     });
 });

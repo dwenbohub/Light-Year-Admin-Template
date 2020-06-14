@@ -103,6 +103,8 @@
 - perfect-scrollbar
 
 ### 更新记录
+2020.06.14 新增label样式，调整datepicker插件样式和使用，调整silders插件样式和皮肤，改td垂直居中，增加登录页面
+
 2019.12.08 修改cssbug，新增card-footer，增加图标的一些使用类
 
 2019.08.04 修改样式bug

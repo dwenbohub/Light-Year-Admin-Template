@@ -27,7 +27,7 @@
     font-size: 0;
 }
 .login-center {
-    background: #fff;
+    background-color: rgba(255,255,255,.075);
     min-width: 29.25rem;
     padding: 2.14286em 3.57143em;
     border-radius: 3px;
@@ -39,6 +39,8 @@
 .login-center .has-feedback.feedback-left .form-control {
     padding-left: 38px;
     padding-right: 12px;
+    background-color: rgba(255,255,255,.075);
+    border-color: rgba(255,255,255,.075)
 }
 .login-center .has-feedback.feedback-left .form-control-feedback {
     left: 0;
@@ -52,11 +54,30 @@
 .login-center .has-feedback.feedback-left.row .form-control-feedback {
     left: 15px;
 }
+.login-center .form-control::-webkit-input-placeholder{ 
+    color: rgba(255, 255, 255, .8);
+} 
+.login-center .form-control:-moz-placeholder{ 
+    color: rgba(255, 255, 255, .8);
+} 
+.login-center .form-control::-moz-placeholder{ 
+    color: rgba(255, 255, 255, .8);
+} 
+.login-center .form-control:-ms-input-placeholder{ 
+    color: rgba(255, 255, 255, .8);
+}
+.login-center .custom-control-label::before {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.login-center .lyear-checkbox span::before {
+    border-color: rgba(255,255,255,.075)
+}
 </style>
 </head>
   
 <body>
-<div class="row lyear-wrapper" style="background-image: url(images/login-bg.jpg); background-size: cover;">
+<div class="row lyear-wrapper" style="background-image: url(images/login-bg-3.jpg); background-size: cover;">
   <div class="lyear-login">
     <div class="login-center">
       <div class="login-header text-center">
@@ -81,7 +102,7 @@
           </div>
         </div>
         <div class="form-group">
-          <label class="lyear-checkbox checkbox-primary m-t-10">
+          <label class="lyear-checkbox checkbox-primary m-t-10 text-white">
             <input type="checkbox"><span>5天内自动登录</span>
           </label>
         </div>
@@ -89,9 +110,8 @@
           <button class="btn btn-block btn-primary" type="button" onclick="location.href='index.html'">立即登录</button>
         </div>
       </form>
-      <hr>
-      <footer class="col-sm-12 text-center">
-        <p class="m-b-0">Copyright © 2019 <a href="http://lyear.itshubao.com">IT书包</a>. All right reserved</p>
+      <footer class="col-sm-12 text-center text-white">
+        <p class="m-b-0">Copyright © 2020 <a href="http://lyear.itshubao.com">IT书包</a>. All right reserved</p>
       </footer>
     </div>
   </div>
