@@ -622,6 +622,7 @@ button.list-group-item:hover {
     margin-bottom: 0px;
     cursor: pointer;
     padding-left: 30px;
+    padding-right: 10px;
     font-weight: 400;
     min-height: 18px;
     height: auto!important;
@@ -889,6 +890,9 @@ input[type=radio] {
 .form-horizontal .lyear-checkbox.checkbox-inline {
     padding-top: 0px;
     margin-top: 8px;
+}
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+    margin-left: 0px;
 }
 
 /* 开关 */
@@ -2279,6 +2283,27 @@ dd, dt {
 .m-l-10 {
     margin-left: 10px!important;
 }
+.m-15 {
+    margin: 15px!important;
+}
+.m-tb-15 {
+    margin: 15px 0px!important;
+}
+.m-lr-15 {
+    margin: 0px 15px!important;
+}
+.m-t-15 {
+    margin-top: 15px!important;
+}
+.m-r-15 {
+    margin-right: 15px!important;
+}
+.m-b-15 {
+    margin-bottom: 15px!important;
+}
+.m-l-15 {
+    margin-left: 15px!important;
+}
 
 /* padding */
 .p-0 {
@@ -2413,6 +2438,16 @@ dd, dt {
 }
 .w-100 {
 	width: 100%;
+}
+
+/* 边框 */
+.no-border-tb {
+    border-top: 0px;
+    border-bottom: 0px
+}
+.no-border-lr {
+    border-left: 0px;
+    border-right: 0px;
 }
 
 /* 图库 */
