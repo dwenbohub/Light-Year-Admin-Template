@@ -891,7 +891,8 @@ input[type=radio] {
     padding-top: 0px;
     margin-top: 8px;
 }
-.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+.checkbox-inline+.checkbox-inline,
+.radio-inline+.radio-inline {
     margin-left: 0px;
 }
 
