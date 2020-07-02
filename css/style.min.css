@@ -3476,6 +3476,10 @@ body[data-theme='dark'] {
     background-color: #1c1e2f;
     color: #8c909a;
 }
+body[data-theme='dark'] .jconfirm.jconfirm-white .jconfirm-bg,
+body[data-theme='dark'] .jconfirm.jconfirm-light .jconfirm-bg {
+    background-color: #fff;
+}
 body[data-theme='dark'] a,
 [data-theme='dark'] .input-group-addon,
 [data-theme='dark'] a.list-group-item,
@@ -3888,6 +3892,9 @@ body[data-theme='translucent'] {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+body[data-theme='translucent'] .jconfirm {
+    color: #4d5259;
 }
 [data-theme='translucent'] ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, .85);
