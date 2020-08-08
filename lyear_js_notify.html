@@ -273,6 +273,7 @@
                 
                 <button type="button" class="btn btn-primary" id="example-success-notify">确认修改</button>
                 <button type="button" class="btn btn-dark" id="example-error-notify">修改失败</button>
+				<button type="button" class="btn btn-warning" id="example-success-notify-url">确认后跳转链接</button>
                 
                 <p class="m-t-10">页面加载等待效果</p>
                 <pre><code>lightyear.loading('show');  // 显示
@@ -309,8 +310,13 @@ lightyear.loading('hide');  // 隐藏</code></pre>
                     <td>$align</td>
                     <td>'left', 'right', 'center'</td>
                   </tr>
+				  <tr>
+                    <td>$url</td>
+                    <td>跳转链接，默认不跳转，填写链接后，跳转到该链接</td>
+                  </tr>
                 </table>
-                <pre><code>lightyear.notify('修改成功，页面即将自动跳转~', 'success', 5000, 'mdi mdi-emoticon-happy', 'top', 'center');</code></pre>
+                <pre><code>lightyear.notify('修改成功，页面即将自动跳转~', 'success', 5000, 'mdi mdi-emoticon-happy', 'top', 'center' , 'https://www.baidu.com');</code></pre>
+				<pre><code>lightyear.url('https://www.baidu.com');  // 先指定跳转链接<br/>lightyear.notify('修改成功，页面即将自动跳转~', 'success', 5000);</code></pre>
               </div>
             </div>
           </div>
@@ -349,6 +355,16 @@ $('#example-error-notify').on('click', function(){
         lightyear.loading('hide');
         lightyear.notify('服务器错误，请稍后再试~', 'danger', 100);
     }, 1e3)
+});
+$('#example-success-notify-url').on('click', function(){
+	lightyear.loading('show');
+    // 假设ajax提交操作
+    setTimeout(function() {
+        lightyear.loading('hide');
+		lightyear.url('https://www.baidu.com');
+        lightyear.notify('修改成功，页面即将自动跳转~', 'success', 3000);
+    }, 1e3)
+  
 });
 </script>
 </body>
