@@ -2222,6 +2222,9 @@ a.text-danger:hover,a.text-danger:focus {
 }
 
 /* 其他 */
+.media img {
+  max-width: inherit;
+}
 hr {
     border-top-color: rgba(77,82,89,0.05);
     margin: 2rem auto;
