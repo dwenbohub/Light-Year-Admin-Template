@@ -31,6 +31,7 @@
 - [Family 族谱管理系统](https://gitee.com/GodLikeZeal/family)
 - [springBoot+thymeleaf+springSecurity+mybatis框架实现cms内容管理和商城系统](https://gitee.com/wtsoftware/febs)
 - [Daen创意云：一款php+mysql开发的web应用管理框架](https://gitee.com/daenmax/DaenCreativeCloud)
+- [舒笑导航 - 一个属于程序员的网址导航](http://nav.shuxiao.net)
 
 #### 说明
 网站主题切换，有默认白色，黑色，和渐变蓝绿色的半透明三种。另外：logo、顶部和侧边栏可单独调整颜色(黑色和半透明主题时选择白色不变)。
