@@ -27,7 +27,7 @@
 简洁而清新的后台模板，功能虽少，倒也满足简单的后台功能，也能够快速上手，希望大家支持。
 
 #### 谁在用
-- [pai-admin 一款基于TP6框架开发的后台管理系统](https://gitee.com/cfn2333/pai)
+- [pai-admin 一款基于TP6框架开发的后台管理系统](https://gitee.com/leapy/pai)
 - [Family 族谱管理系统](https://gitee.com/GodLikeZeal/family)
 - [springBoot+thymeleaf+springSecurity+mybatis框架实现cms内容管理和商城系统](https://gitee.com/wtsoftware/febs)
 - [Daen创意云：一款php+mysql开发的web应用管理框架](https://gitee.com/daenmax/DaenCreativeCloud)
