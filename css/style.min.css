@@ -4501,6 +4501,7 @@ body[data-theme='translucent'] .jconfirm {
 }
 
 [data-logobg*='color_'] .sidebar-header img,
+[data-theme='dark'] .sidebar-header img,
 [data-theme='translucent'] .sidebar-header img {
     position: relative;
     -webkit-filter: brightness(275%);
