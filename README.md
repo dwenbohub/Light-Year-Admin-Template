@@ -44,6 +44,9 @@
 
 主题切换并没有存到cookie中，大家根据自己实际情况，做cookie存储或者其他方式。
 
+#### Class搜索小工具
+[此网址可以方便找到v3和v4中自己想要的class](http://libs.itshubao.com/lyear-search-class/)
+
 #### jquery-cookie保存设置示例
 ```
     // 使用时，请自行引入jquery.cookie.js
