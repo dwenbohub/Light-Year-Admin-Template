@@ -274,7 +274,7 @@
               <div class="card-header"><h4>时间选择</h4></div>
               <div class="card-body">
                 
-                <input class="form-control js-datetimepicker" type="text" id="example-datetimepicker" name="add_time" placeholder="请选择具体时间" value="" data-side-by-side="true" data-locale="zh-cn" data-format="YYYY-MM-DD HH:mm" />
+                <input class="form-control js-datetimepicker" type="text" id="example-datetimepicker" name="add_time" placeholder="请选择具体时间" value="" data-side-by-side="true" data-locale="zh-cn" data-format="YYYY-MM-DD HH:mm:ss" />
                 
               </div>
             </div>
@@ -296,6 +296,15 @@
                   <span class="input-group-addon"><i class="mdi mdi-chevron-right"></i></span>
                   <input class="form-control" type="text" id="example-daterange2" name="example-daterange2" placeholder="至">
                 </div>
+          
+                <p class="m-t-15">单独选择年份</p>
+                <p class="text-danger">因为和通用初始化有些不一样，这里单独对此做初始化。</p>
+                <input class="form-control m-b-10" type="text" id="example-datepicker-year" name="example-datepicker-year" data-date-format="yyyy" placeholder="yyyy">
+          
+                <p class="m-t-15">单独选择月份</p>
+                <input class="form-control m-b-10" type="text" id="example-datepicker-month" name="example-datepicker-month" data-date-format="mm" placeholder="mm">
+          
+                <p class="m-t-15">单独选择天就不演示了，<code>data-date-format="dd"</code>即可。</p>
                 
               </div>
             </div>
@@ -321,5 +330,35 @@
 <script src="js/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
 <script src="js/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js"></script>
 <script type="text/javascript" src="js/main.min.js"></script>
+<script type="text/javascript">
+    // 单独选择年份
+	jQuery('#example-datepicker-year').each(function() {
+	    var $input = jQuery(this);
+		$input.datepicker({
+            startView: 'decade',  
+            endView: 'decade',
+            maxViewMode: 'decade',  
+            minViewMode: 'decade', 
+			weekStart: 1,
+			autoclose: true,
+			todayHighlight: true,
+			language: 'zh-CN',
+		});
+	});
+    // 单独选择月份
+	jQuery('#example-datepicker-month').each(function() {
+	    var $input = jQuery(this);
+		$input.datepicker({
+            startView: 'month',  
+            endView: 'month',
+            maxViewMode: 'year',  
+            minViewMode: 'year', 
+			weekStart: 1,
+			autoclose: true,
+			todayHighlight: true,
+			language: 'zh-CN',
+		});
+	});
+</script>
 </body>
 </html>
