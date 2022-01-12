@@ -3,6 +3,9 @@
 #### 演示网址
 [http://lyear.itshubao.com](http://lyear.itshubao.com)
 
+#### 模板说明文档
+[http://www.bixiaguangnian.com/manual/lyearadmin.html](http://www.bixiaguangnian.com/manual/lyearadmin.html)
+
 #### 交流群
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0419/100528_9d22ac7d_82992.png "光年后台模板交流群群聊二维码.png")
 
