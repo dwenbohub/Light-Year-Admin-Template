@@ -4398,7 +4398,7 @@ body[data-theme='translucent'] .jconfirm {
 [data-theme='translucent'] .form-control:focus {
     border-color: rgba(255, 255, 255, .35);
 }
-[data-theme='translucent'] .form-control[size='1'] option {
+[data-theme='translucent'] .form-control:not([multiple]) option {
     background: #1D6FA3;
 }
 [data-theme='translucent'] .input-group-btn:first-child>.btn,
