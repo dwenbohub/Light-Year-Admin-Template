@@ -3916,7 +3916,7 @@ body[data-theme='dark'] a,
 }
 [data-theme='dark'] .lyear-switch span {
     background-color: #1D1F2F;
-    border-color: #1D1F2F;
+    border-color: #303243;
 }
 [data-theme='dark'] .lyear-switch.switch-outline span {
     background-color: transparent;
