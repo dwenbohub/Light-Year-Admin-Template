@@ -23,7 +23,7 @@
 
 [猛戳这里去iframe版本](https://gitee.com/yinqi/Light-Year-Admin-Using-Iframe)
 
-[猛戳这里去Light Year Admin V4项目(基于bootstrap 4.4.1版本)](https://gitee.com/yinqi/Light-Year-Admin-Using-v4)
+[猛戳这里去Light Year Admin V4项目(基于bootstrap 4.4.1版本)](https://gitee.com/yinqi/Light-Year-Admin-v4)
 
 [猛戳这里去Light Year Admin Using Iframe V4项目(基于bootstrap 4.4.1版本)](https://gitee.com/yinqi/Light-Year-Admin-Using-Iframe-v4)
 
